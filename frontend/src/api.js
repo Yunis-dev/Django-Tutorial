@@ -1,7 +1,9 @@
 import axios from "axios";
 import { ACCESS_TOKEN } from "./constants";
 
-const apiUrl = "/choreo-apis/backend-1385060843:8000";
+window.configs = {
+  apiUrl: '/choreo-apis/backend-1385060843:8000',        
+};
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiUrl,
