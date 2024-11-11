@@ -2,7 +2,7 @@ import axios from "axios";
 import { ACCESS_TOKEN } from "./constants";
 
 window.configs = {
-  apiUrl: '/choreo-apis/backend-1385060843:8000',        
+    apiUrl: '/choreo-apis/backend-1385060843:8000',        
 };
 
 const api = axios.create({
