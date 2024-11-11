@@ -4,6 +4,5 @@ endpoints:
   - name: "REST API"
     port: 8000
     type: REST
-    newtworkVisibility: Public
+    networkVisibility: Public
     context: /
-  
